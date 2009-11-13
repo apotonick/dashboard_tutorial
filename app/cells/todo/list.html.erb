@@ -1,0 +1,9 @@
+
+<ul>
+  <% @list.each do |item| %>
+    <li id="<%= "el#{item.id}" %>">
+      <%= h item.text %>
+    </li>
+    <%= draggable_element "el#{item.id}", :revert => true %>
+  <% end %>
+</ul>

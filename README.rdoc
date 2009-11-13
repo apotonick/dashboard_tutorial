@@ -1,0 +1,30 @@
+= How to make a Dashboard with Rails and Apotomo
+This is a small Rails application demonstrating the use of Apotomo to create widgets for a dashboard.
+
+Runs with rails 2.3 and more.
+
+== Installation
+
+  git clone git://github.com/apotonick/dashboard_tutorial.git
+  cd dashboard_tutorial
+  git submodule init
+  git submodule update
+  script/server
+
+Browse to
+ localhost:3000/desktop
+
+and enjoy real stateful widgets in your Rails app.
+
+== Contribute!
+
+If you think these examples are useless, feel free to add more descriptive stuff and send
+us a pull request. We're looking forward to your work.
+
+Every contribution pulled into master will be rewarded with a beer at a Ruby/Rails 
+event (I PAY!).
+
+=== Contributors
+
+* Michał Łomnicki       [mlomnicki]: for being the star of the dashboard show (+1 beer).
+* José Alberto          [jalberto]: for bugging me to upload this (+1 beer).

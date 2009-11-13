@@ -1,0 +1,36 @@
+/*
+  all images were stolen and may be licensed.
+  thanks to felix, the best programmer i've ever met, for helping me out with my rusty css.
+*/
+body {
+  background-color: black;
+  color: white;
+}
+
+td {
+  background: transparent url('/images/widget-frame.png') top left no-repeat;
+  width: 134px;
+  height: 172px;
+  padding: 9px;
+  text-align: center;
+}
+
+textarea {
+  width: 90px;
+}
+
+#todo_list ul li {
+  font-size: 9pt; color: black;
+}
+
+#todo_list {
+  text-align: left;
+}
+
+ul.widgetList li {
+  background-color: darkgrey;
+  width: 220px;
+  font-weight: bold;
+  color: black;
+  margin-top: 3px;
+}
